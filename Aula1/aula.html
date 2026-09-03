@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bolo de Cenoura</title>
-    <link rel='icon' href="bolo-de-fuba.png">
+    <link rel='icon' href="Imagens/bolo-de-fuba.png">
     <style>
         h1{
             font-size:xx-large;
@@ -13,36 +13,39 @@
             background-color: lightsalmon;
             padding-top: 5%;
             padding-bottom: 5%;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             word-spacing: 50px;
             letter-spacing: 10px;
+            font-style: italic;
+            
         }
         h2{
             font-style: italic;
             color: darkorange;
-      
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
+              }
         /* quando chamar uma classe, colocar ponto na frente */
         .parag1{
             color: darkblue;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
         }
-        .parag2{
+         /* ou colocar o nome da tag, ponto e o nome da classe. Dessa forma ajuda a indicar qual tag está sendo usada */
+        p.parag2{
             color: purple;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          
         }
         li{
-           
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           list-style-type: none;
+            
         }
-        a{
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        /* para chamar ID é com # */
+        #nome{
+            
+            color: orange;
         }
+        #nome2{
+            
+            color: red;
+        }
+ 
         body{
             background-color: bisque;
         }
@@ -50,21 +53,32 @@
             display: block;
             margin: auto;
         }
+        p{
+            
+            font-weight: 550;
+        }
+        .todos{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
         
     </style>
 
 </head>
 
 <body>
-    <h1>Bolos de Cenoura</h1>
-    <p>Bolos de cenoura, inteiros e fatias, a pronta entrega!</p>
-    <img src="bolo.jfif" alt="">
-    <p class="parag1">O bolo de cenoura perfeito começa com ingredientes selecionados, uma massa fofinha e aquele sabor caseiro que conquista na primeira mordida. Somos especialistas em bolo de cenoura e transformamos uma receita clássica em uma experiência irresistível, com cenouras frescas, textura macia e muito carinho em cada preparo.</p>
-    <p class="parag2">Do tradicional bolo com cobertura de chocolate às combinações mais criativas, temos opções para todos os gostos e momentos. Seja para um café da tarde, uma comemoração especial ou simplesmente para matar a vontade de comer um doce delicioso, nosso bolo de cenoura é preparado para surpreender pelo sabor, aroma e qualidade.</p>
-    <h2>Sabores:</h2>
+    <h1 class="todos">Bolos de Cenoura</h1>
+    <p class="todos">Bolos de cenoura, inteiros e fatias, a pronta entrega!</p>
+    <img src="Imagens/bolo.jfif" alt="">
+
+    <!-- classe com nome -->
+    <p class="parag1 todos">O bolo de cenoura perfeito começa com ingredientes selecionados, uma massa fofinha e aquele sabor caseiro que conquista na primeira mordida. Somos especialistas em bolo de cenoura e transformamos uma receita clássica em uma experiência irresistível, com cenouras frescas, textura macia e muito carinho em cada preparo.</p>
+    <p class="parag2 todos">Do tradicional bolo com cobertura de chocolate às combinações mais criativas, temos opções para todos os gostos e momentos. Seja para um café da tarde, uma comemoração especial ou simplesmente para matar a vontade de comer um doce delicioso, nosso bolo de cenoura é preparado para surpreender pelo sabor, aroma e qualidade.</p>
+    <h2 class="todos">Sabores:</h2>
     <ul>
-        <li>Bolo de Cenoura</li>
-        <li>Bolo de Cenoura com cobertura mole</li>
+        <!-- o ID não pode se repetir. É chave primária. -->
+        <li id="nome todos">Bolo de Cenoura</li>
+        <li id="nome2 todos">Bolo de Cenoura com cobertura mole</li>
         <li>Bolo de Cenoura com cobertura dura</li>
         <li>Bolo de Cenoura vulcão</li>
         <li>Bolo de Cenoura com recheio de brigadeiro e cobertura de brigadeiro</li>
