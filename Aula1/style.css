@@ -36,9 +36,11 @@ div.divisao{
     border-radius: 10px;
     width: 200px;
     height: 200px;
-    text-align: center;
     font-size: 1.5rem;
-    box-shadow: 6px 0 0 0 black;
+    box-shadow: 6px 8px 0 0 rgb(0, 0, 0, 0.365);
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 
