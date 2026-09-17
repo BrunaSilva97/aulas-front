@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #53a5bd;
+
+}
+@font-face {
+    font-family: Swash;
+    src: url(fontes/Swash.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(css/fontes/poppins-regular.otf);
+}
+@font-face {
+    font-family: Twilight;
+    src: url(fontes/Twilight_Free_Font_by_sheslikeadream.ttf);
+}
+@font-face {
+    font-family: Uncial;
+    src: url(fontes/UncialAntiqua-Regular.ttf);
+}
+.titulo{
+    font-family: Twilight;
+    font-size: 4rem;
+    text-align: center;
+    color: #050d10;
+    background-color: #15607d ;
+    padding: 6px;
+    letter-spacing: 3px;
+    border-bottom: 6px solid #050d10;
+    border-radius: 60px;
+    width: 70%;
+    margin: 50px auto;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.menu{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Uncial;
+}
+.itens{
+    color: #70526E;
+    font-size: medium;
+    text-decoration:overline;
+
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSM</title>
+    <link rel="stylesheet" href="css/estilos.css"
+</head>
+<body>
+    <h1 class="titulo">Saga: CREPUSCULO</h1>
+    <div class="menu">
+        <a class="itens" href="#">Home</a>
+        <a class="itens" href="Crepusculo.html">Crepusculo</a>
+        <a class="itens" href="Lua Nova.html">Lua Nova</a>
+        <a class="itens" href="Eclipse.html">Eclipse</a>
+        <a class="itens" href="Amanhecer1.html">Amanhecer: Parte 1</a>
+        <a class="itens" href="Amanhecer2.html">Amanhecer: Parte 2</a>
+    </div>
+    <img src="css/a471796f787070daedd4a41e2b5faad0.jpg" alt="">
+
+    
+</body>
+</html>
+
+
+
+
